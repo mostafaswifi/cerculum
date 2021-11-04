@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/7ad7de2719.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- hero section -->
+  <section class="hero container-fluid position-relative text-white">
+    <div class="hero-filter w-100 position-absolute top-0 end-0"></div>
+    <div class="content position-absolute top-50 start-50 translate-middle text-center" id="hero-en">
+      <i class="far fa-file fa-4x my-3"></i>
+      <h1 class="text-uppercase fw-bolder mx-md-5">welcome to resume online web site</h1>
+      <p class="fs-3 opacity-50 my-3 text-capitalize fw-bolder">our site present the best resume online editor</p>
+      <button class="text-uppercase btn-primary text-white px-5 py-2">start now</button>
+    </div>
+
+    <div class="content position-absolute top-50 start-50 translate-middle text-center hide" id="hero-ar">
+      <i class="far fa-file fa-4x my-3" aria-hidden="true"></i>
+      <h1 class="text-uppercase fw-bolder mx-md-5">مرحبا بكم في موقع سيرة أون لاين</h1>
+      <p class="fs-3 opacity-50 my-3 text-capitalize fw-bolder">الموقع يقدم الخدمة الأفضل في انشاء السيرة الذاتية أون لاين بدون الحاجة الي تحميل ملفات او التعديل عليها</p>
+      <button class="text-uppercase btn-primary text-white px-5 py-2">ابدأ الان</button>
+    </div>
+
+
+
+  </section>
+  <section class="info position-relative">
+    <div class="infotitle w-100">
+      <div class="content position-absolute top-50 start-50 translate-middle text-center w-100" id="info-en">
+
+        <h3 class="text-uppercase fw-bolder text-warning opacity-50">please enter your data as shown in each feild</h3>
+        <p class="fs-5 my-3 text-capitalize fw-bolder text-white opacity-50">please notice that your resume will be
+          estableshed using ENGLISH language for ARABIC <a href="#" class="text-warning text-decoration-none" id="lang">click
+            here</a> </p>
+      </div>
+      <div class="content position-absolute top-50 start-50 translate-middle text-center w-100 hide" id="info-ar">
+
+        <h3 class="text-uppercase fw-bolder text-warning opacity-50">قم بإدخال بياناتك كما هو موضح بكل خانة</h3>
+        <p class="fs-5 my-3 text-capitalize fw-bolder text-white opacity-50">يرجي العلم بأن السيرة الذاتية سيتم إنشاؤها باللغة العربية إذا أردت اللغة الإنجليزية من فضلك <a href="#" class="text-warning text-decoration-none" id="lang-ar">اضغط هنا</a> </p>
+      </div>
+    </div>
+    <div class="container-fluid form py-5" id="eng">
+      <div class="container my-3">
+        <form>
+          <div class="devider mb-3 row">
+            <div class="col-md-8">
+              <label for="exampleInputText1" class="form-label">Full name</label>
+              <input type="text" class="form-control" id="exampleInputText1" aria-describedby="textHelp"
+                placeholder="Enter full name">
+            </div>
+
+            <div class="col-md-4">
+              <label for="exampleInputDate1" class="form-label">Date of birth</label>
+              <input type="date" class="form-control" id="exampleInputDate1" aria-describedby="datelHelp"
+                placeholder="Enter full name">
+            </div>
+
+          </div>
+
+          <div class="devider mb-3 row">
+            <div class="col-md-4">
+              <label for="exampleInputText2" class="form-label">Address</label>
+              <input type="text" class="form-control" id="exampleInputText2" aria-describedby="textHelp"
+                placeholder="Enter full address">
+            </div>
+
+            <div class="col-md-4">
+              <label for="exampleInputEmail1" class="form-label">E-mail</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emaillHelp"
+                placeholder="Enter E-mail">
+            </div>
+
+            <div class="col-md-4">
+              <label for="exampleInputTel1" class="form-label">Tel number</label>
+              <input type="tel" class="form-control" id="exampleInputTel1" aria-describedby="tellHelp"
+                placeholder="Enter telephone number">
+            </div>
+
+          </div>
+
+          <div class="devider mb-3 row">
+            <div class="col-12">
+              <label for="exampleInputText1" class="form-label">Information about you</label>
+              <textarea name="area1" class="form-control" aria-describedby="textareaHelp" id="exampleInputTextarea1"
+                cols="30" rows="10" placeholder="Please write some thing about you!!"></textarea>
+            </div>
+
+          </div>
+
+          <div class="devider mb-3 row">
+            <div class="col-md-4">
+              <label for="exampleInputText3" class="form-label">University or institution</label>
+              <input type="text" class="form-control" id="exampleInputText3" aria-describedby="textHelp"
+                placeholder="University or institution">
+            </div>
+
+            <div class="col-md-4">
+              <label for="exampleInputText4" class="form-label">Feild of experties</label>
+              <input type="text" class="form-control" id="exampleInputText4" aria-describedby="textHelp"
+                placeholder="Feild of experties">
+            </div>
+
+            <div class="col-md-4">
+              <label for="grad" class="form-label">Graduation year</label>
+              <select class="form-select" aria-label="Default select example" id="grad">
+                <option selected>Select graduation year</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+
+          </div>
+
+          <div class="devider mb-3 row">
+           
+            <div class="col-md-6">
+              <label for="grad2" class="form-label">Military status</label>
+              <select class="form-select" aria-label="Default select example" id="grad2">
+                <option selected>Select millitary status</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+
+            <div class="col-md-6">
+              <label for="grad3" class="form-label">Gender</label>
+              <select class="form-select" aria-label="Default select example" id="grad3">
+                <option selected>Select gender</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+            
+              </select>
+            </div>
+
+          </div>
+
+
+          <div class="devider mb-3 row">
+            <div class="col-md-4">
+              <label for="exampleInputText4" class="form-label">Date of departure</label>
+              <input type="text" class="form-control" id="exampleInputText4" aria-describedby="textHelp"
+                placeholder="Date of departure">
+            </div>
+
+            <div class="col-md-4">
+              <label for="exampleInputText5" class="form-label">Date of join</label>
+              <input type="text" class="form-control" id="exampleInputText5" aria-describedby="textHelp"
+                placeholder="Date of join">
+            </div>
+
+            
+            <div class="col-md-4">
+              <label for="exampleInputText6" class="form-label">Previous posts</label>
+              <input type="text" class="form-control" id="exampleInputText6" aria-describedby="textHelp"
+                placeholder="Previous posts">
+            </div>
+
+
+          </div>
+
+          <!-- <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div> -->
+
+          <button type="submit" class="btn btn-warning w-100 text-white py-1 my-md-3 fw-bolder fs-3 bg-opacity-25">Add new job</button>
+
+          <div class="devider mb-3 row">
+            <div class="col-md-3">
+              <label for="exampleInputText7" class="form-label">Skills</label>
+              <input type="text" class="form-control" id="exampleInputText7" aria-describedby="textHelp"
+                placeholder="Skills">
+            </div>
+
+            <div class="col-md-3">
+              <label for="grad5" class="form-label">Percentage of perficton</label>
+              <select class="form-select" aria-label="Default select example" id="grad5">
+                <option selected>Select skill percent</option>
+                <option value="1">100%</option>
+                <option value="2">50%</option>
+                <option value="3">10%</option>
+              </select>
+            </div>
+
+            <div class="col-md-3">
+              <label for="exampleInputText8" class="form-label">Skills</label>
+              <input type="text" class="form-control" id="exampleInputText8" aria-describedby="textHelp"
+                placeholder="Skills">
+            </div>
+
+            <div class="col-md-3">
+              <label for="grad6" class="form-label">Percentage of perficton</label>
+              <select class="form-select" aria-label="Default select example" id="grad6">
+                <option selected>Select skilll percent</option>
+                <option value="1">100%</option>
+                <option value="2">50%</option>
+                <option value="3">10%</option>
+              </select>
+            </div>
+            
+          </div>
+           <button id="n-skill" class="btn btn-warning w-100 text-white py-1 my-md-3 fw-bolder fs-3 bg-opacity-25">Add new skill</button>
+
+           <div class="devider mb-3 row">
+            <div class="col-12">
+              <label for="exampleInputText1" class="form-label">Nots to add for your resume</label>
+              <textarea name="area1" class="form-control" aria-describedby="textareaHelp" id="exampleInputTextarea1"
+                cols="30" rows="10" placeholder="Please write some thing about you!!"></textarea>
+            </div>
+
+          </div>
+
+          <button type="submit" class="btn btn-primary text-white py-1 my-md-4 fw-bolder fs-4 bg-opacity-25 px-5 d-flex mx-auto">Creat resume</button>
+        </form>
+
+      </div>
+    </div>
+
+    <div class="container-fluid form py-5 hide" id="ara">
+      <div class="container my-3">
+        <form>
+          <div class="devider mb-3 row">
+            <div class="col-md-8">
+              <label for="exampleInputText1" class="form-label">الإسم بالكامل</label>
+              <input type="text" class="form-control" id="exampleInputText1" aria-describedby="textHelp" placeholder="أدخل الإسم بالكامل">
+            </div>
+
+            <div class="col-md-4">
+              <label for="exampleInputDate1" class="form-label">تاريخ الميلاد</label>
+              <input type="date" class="form-control" id="exampleInputDate1" aria-describedby="datelHelp" placeholder="أدخل تاريخ الميلاد">
+            </div>
+
+          </div>
+
+          <div class="devider mb-3 row">
+            <div class="col-md-4">
+              <label for="exampleInputText2" class="form-label">العنوان</label>
+              <input type="text" class="form-control" id="exampleInputText2" aria-describedby="textHelp" placeholder="أدخل العنوان بالكامل">
+            </div>
+
+            <div class="col-md-4">
+              <label for="exampleInputEmail1" class="form-label">البريد الإلكتروني</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emaillHelp" placeholder="Enter E-mail">
+            </div>
+
+            <div class="col-md-4">
+              <label for="exampleInputTel1" class="form-label">رقم الهاتف</label>
+              <input type="tel" class="form-control" id="exampleInputTel1" aria-describedby="tellHelp" placeholder="أدخل رقم الهاتف">
+            </div>
+
+          </div>
+
+          <div class="devider mb-3 row">
+            <div class="col-12">
+              <label for="exampleInputText1" class="form-label">إضافة معلومات عنك</label>
+              <textarea name="area1" class="form-control" aria-describedby="textareaHelp" id="exampleInputTextarea1" cols="30" rows="10" placeholder="من فضلك أضف بعض المعلومات عنك"></textarea>
+            </div>
+
+          </div>
+
+          <div class="devider mb-3 row">
+            <div class="col-md-4">
+              <label for="exampleInputText3" class="form-label">الجامعة أو المعهد</label>
+              <input type="text" class="form-control" id="exampleInputText3" aria-describedby="textHelp" placeholder="الجامعة أو المعهد">
+            </div>
+
+            <div class="col-md-4">
+              <label for="exampleInputText4" class="form-label">الخبرات</label>
+              <input type="text" class="form-control" id="exampleInputText4" aria-describedby="textHelp" placeholder="الخبرات">
+            </div>
+
+            <div class="col-md-4">
+              <label for="grad" class="form-label">سنة التخرج</label>
+              <select class="form-select" aria-label="Default select example" id="grad">
+                <option selected="">اختر سنة التخرج</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+
+          </div>
+
+          <div class="devider mb-3 row">
+           
+            <div class="col-md-6">
+              <label for="grad2" class="form-label">الموقف من الخدمة العسكرية</label>
+              <select class="form-select" aria-label="Default select example" id="grad2">
+                <option selected="">اختر الموقف من التجنيد</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+
+            <div class="col-md-6">
+              <label for="grad3" class="form-label">النوع</label>
+              <select class="form-select" aria-label="Default select example" id="grad3">
+                <option selected="">اختر نوع</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+            
+              </select>
+            </div>
+
+          </div>
+
+
+          <div class="devider mb-3 row">
+            <div class="col-md-4">
+              <label for="exampleInputText4" class="form-label">تاريخ المغادرة</label>
+              <input type="text" class="form-control" id="exampleInputText4" aria-describedby="textHelp" placeholder="تاريخ المغادرة">
+            </div>
+
+            <div class="col-md-4">
+              <label for="exampleInputText5" class="form-label">تاريخ الالتحاق</label>
+              <input type="text" class="form-control" id="exampleInputText5" aria-describedby="textHelp" placeholder="تاريخ الالتحاق">
+            </div>
+
+            
+            <div class="col-md-4">
+              <label for="exampleInputText6" class="form-label">الوظيفة السابقة</label>
+              <input type="text" class="form-control" id="exampleInputText6" aria-describedby="textHelp" placeholder="الوظيفة السابقة">
+            </div>
+
+
+          </div>
+
+          <!-- <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div> -->
+
+          <button type="submit" class="btn btn-warning w-100 text-white py-1 my-md-3 fw-bolder fs-3 bg-opacity-25">إضافة وظيفة جديدة</button>
+
+          <div class="devider mb-3 row">
+            <div class="col-md-3">
+              <label for="exampleInputText7" class="form-label">المهارات</label>
+              <input type="text" class="form-control" id="exampleInputText7" aria-describedby="textHelp" placeholder="أكتب مهاراتك">
+            </div>
+
+            <div class="col-md-3">
+              <label for="grad5" class="form-label">درجة الكفاءة</label>
+              <select class="form-select" aria-label="Default select example" id="grad5">
+                <option selected="">اختر درجة</option>
+                <option value="1">100%</option>
+                <option value="2">50%</option>
+                <option value="3">10%</option>
+              </select>
+            </div>
+
+            <div class="col-md-3">
+              <label for="exampleInputText8" class="form-label">المهارات</label>
+              <input type="text" class="form-control" id="exampleInputText8" aria-describedby="textHelp" placeholder="أكتب مهاراتك">
+            </div>
+
+            <div class="col-md-3">
+              <label for="grad6" class="form-label">درجة الكفاءة</label>
+              <select class="form-select" aria-label="Default select example" id="grad6">
+                <option selected="">اختر درجة</option>
+                <option value="1">100%</option>
+                <option value="2">50%</option>
+                <option value="3">10%</option>
+              </select>
+            </div>
+            
+          </div>
+           <button id="nar-skill" class="btn btn-warning w-100 text-white py-1 my-md-3 fw-bolder fs-3 bg-opacity-25">اضافة مهارة جديدة</button>
+
+           <div class="devider mb-3 row">
+            <div class="col-12">
+              <label for="exampleInputText1" class="form-label">اضافة ملاحظات لسيرتك الذاتية</label>
+              <textarea name="area1" class="form-control" aria-describedby="textareaHelp" id="exampleInputTextarea1" cols="30" rows="10" placeholder="من فضلك أكتب بعض المعلومات عنك"></textarea>
+            </div>
+
+          </div>
+
+          <button type="submit" class="btn btn-primary text-white py-1 my-md-4 fw-bolder fs-4 bg-opacity-25 px-5 d-flex mx-auto">إنشاء سيرة ذاتية</button>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <script src="bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="js/myscript.js"></script>
+</body>
+
+</html>
