@@ -1,0 +1,100 @@
+/* documentation
+[ 1 ] media dueries - font imports & resetters & variables
+[ 2 ] generals
+[ 3 ] sections
+              [ 3 - 1] hero section
+  
+*/
+
+/* start ===================================== [ 1 ] media queries and imports and resetters ======================================= start */
+
+@import url("media.css");
+@font-face {
+  src: url("../assets/fonts/Cairo-Regular.ttf");
+  font-family: cairo;
+}
+
+
+:root{
+  --back-color: rgb(17, 24, 44);
+  --bac-color2: rgb(18, 18, 36);
+  --text-color: white;
+}
+/* end   ===================================== media queries and imports and resetters =============================================== end */
+
+/* start =================================================== [ 2 ] generals ======================================================== start */
+* {
+  font-family: cairo;
+
+}
+
+.rtl{
+direction: rtl;
+}
+
+.show{
+display: block;  
+}
+
+.hide{
+display: none;
+}
+
+label{
+  padding: 0.2rem 0.1rem;
+  color:var(--text-color);
+  font-weight: bold;
+}
+/* end   =================================================== [ 2 ] generals ========================================================== end */
+
+/* start =================================================== [ 3 ] sections ======================================================== start */
+
+/* start ============================================== [ 3 - 1 ] sections hero ==================================================== start */
+
+section.hero {
+  background-image: url("../imgs/23.-shutterstock_303168299.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  /* filter: grayscale(80%); */
+}
+
+.hero .hero-filter {
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(6, 8, 37, 0.897);
+}
+
+.hero .content {
+  z-index: 20;
+  width: 100%;
+}
+
+.hero .content h1 {
+  font-size: 4rem;
+}
+
+.content button {
+  /* width: 15%; */
+}
+
+/* end   ============================================== [ 3 - 1 ] sections hero ====================================================== end */
+
+/* start ============================================== [ 3 - 2 ] sections info ==================================================== start */
+section.info{
+height: 30vh;
+background-color: var(--back-color);
+}
+
+.infotitle{
+  height: 100%;
+}
+
+.form{
+  background-color: var(--bac-color2);
+}
+
+/* end   ============================================== [ 3 - 2 ] sections info ====================================================== end */
+
+/* end  =================================================== [ 3 ] sections ========================================================== end */
